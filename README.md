@@ -10,4 +10,4 @@ Weather Dashboard
 
 link https://par92.github.io/HW-6/
 
-screenshot https://github.com/Par92/HW-6/blob/main/Assets/Screenshot%202022-02-22%20203518.png
+screenshot ![](./Assets/Screenshot.png)
