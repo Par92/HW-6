@@ -1,0 +1,99 @@
+:root {
+    --primary: #022b83;
+    --secondary: #ffe600;
+    --tertiary: #84b3f1;
+    --quaternary: #b8dbf8;
+
+  }
+
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+
+.custom-5day {
+    background-color: var(--quaternary);
+    padding: 20px;
+    border-bottom-right-radius: 15px;
+  }
+
+.custom-day {
+    background-color: var(--tertiary);
+    padding: 15px;
+    border-top-left-radius: 15px;
+    
+  }
+  
+.custom-nav {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+.custom-nav a:hover {
+    color: var(--tertiary);
+  }
+  
+.custom-jumbotron {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 32px;
+  }
+
+.custom-search {
+    color: var(--primary);
+    
+  }
+
+.card-header-custom {
+    background-color: var(--quaternary);
+}
+
+.custom-btn {
+    background-color: var(--primary);
+    color: var(--secondary);
+  }
+  
+.custom-btn:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+  }
+
+.dI-custom {
+    background-color: var(--tertiary); 
+}
+
+.card-custom {
+    border: 5px;
+    
+}
+
+.lala {
+    margin: 20px;
+}
+
+#weather-container div {
+  font-size: 23px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.day-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+#saved-searches {
+  display: flex;
+  justify-content: center;
+}
+
+.city-button {
+  background-color: var(--tertiary);
+  color: var(--primary);
+  border: none;
+}
