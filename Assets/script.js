@@ -39,7 +39,7 @@ function savedSubmit(event) {
 }
 
 var getLatLon = function (location) {
-    var apiUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + location + '&limit=1&appid=b5493b5e591f2ce790124d4d8e2161f6';
+    var apiUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + location + '&limit=1&appid=b5493b5e591f2ce790124d4d8e2161f6';
   
     fetch(apiUrl)
       .then(function (response) {
